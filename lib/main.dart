@@ -1,7 +1,7 @@
 import './utils/tools/importer.dart';
 
-
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -10,9 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const MainPage(),
+      home: MainPage(),
+      translations: TextTranslation(),
+      locale: const Locale('en','EN'),
+      fallbackLocale: const Locale('en','EN'),
+      defaultTransition: Transition.fade,
     );
   }
 }

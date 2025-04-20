@@ -1,15 +1,8 @@
 class BottomTabBarIcons {
   static const String _iconPath = 'assets/bottom_tab_bar_icons';
 
-  // active
-  static const String activeBarcodeScanner = '$_iconPath/active_barcode_scanner.svg';
-  static const String activeBinLocator = '$_iconPath/active_binlocator.svg';
-  static const String activeFaq = '$_iconPath/active_faq.svg';
-  static const String activeItemSearch = '$_iconPath/active_item_search.svg';
-
-  //   inactive
   static const String inactiveBarcodeScanner = '$_iconPath/inactive_barcode_scanner.svg';
-  static const String inactiveBinLocator = '$_iconPath/inactive_binlocator.svg';
+  static const String inactiveBinLocator = '$_iconPath/inactive_bin_locator.svg';
   static const String inactiveFaq = '$_iconPath/inactive_faq.svg';
   static const String inactiveItemSearch = '$_iconPath/inactive_item_search.svg';
 }
