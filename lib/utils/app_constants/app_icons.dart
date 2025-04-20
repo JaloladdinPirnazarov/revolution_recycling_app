@@ -1,5 +1,5 @@
 class BottomTabBarIcons {
-  static const String _iconPath = 'assets/bottom_tabbar_icons';
+  static const String _iconPath = 'assets/bottom_tab_bar_icons';
 
   // active
   static const String activeBarcodeScanner = '$_iconPath/active_barcode_scanner.svg';
