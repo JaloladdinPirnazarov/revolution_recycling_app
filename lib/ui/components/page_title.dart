@@ -1,15 +1,15 @@
-import '../../../../utils/tools/importer.dart';
+import '../../utils/tools/importer.dart';
 
-class MainPageTitle extends StatelessWidget {
+class PageTitle extends StatelessWidget {
   final String title;
-  const MainPageTitle({super.key, required this.title});
+  const PageTitle({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(bottom: 19),
       alignment: Alignment.bottomCenter,
-      height: 155,
+      height: 150,
       width: double.infinity,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(45.0),

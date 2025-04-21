@@ -10,19 +10,19 @@ class BottomTabBarIcons {
 class CategoryIcons {
   static const String _iconPath = 'assets/category_icons';
 
-  static const String battery = '$_iconPath/battery.svg';
-  static const String cardboard = '$_iconPath/cardboard.svg';
-  static const String electric = '$_iconPath/electric.svg';
-  static const String glass = '$_iconPath/glass.svg';
-  static const String metal = '$_iconPath/metal.svg';
-  static const String organic = '$_iconPath/organic.svg';
-  static const String paper = '$_iconPath/paper.svg';
-  static const String plastic = '$_iconPath/plastic.svg';
+  static const String battery = '$_iconPath/battery.png';
+  static const String cardboard = '$_iconPath/cardboard.png';
+  static const String electric = '$_iconPath/electric.png';
+  static const String glass = '$_iconPath/glass.png';
+  static const String metal = '$_iconPath/metal.png';
+  static const String organic = '$_iconPath/organic.png';
+  static const String paper = '$_iconPath/paper.png';
+  static const String plastic = '$_iconPath/plastic.png';
 }
 
-class OtherIcons {
+class AppIcons {
   static const String _iconPath = 'assets/other_icons';
 
-  static const search = '$_iconPath/search.svg';
+  static const searchIcon = '$_iconPath/search.svg';
 
 }

@@ -24,7 +24,7 @@ class MyBottomNavBarItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ZoomTapAnimation(
       onTap: () {
-        repository.selectPage(position);
+        repository.selectMainPagesPage(position);
         pageController.animateToPage(
           position,
           duration: Duration(milliseconds: 500),

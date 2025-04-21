@@ -7,19 +7,17 @@ class MyPageView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: PageView(
-        controller: pageController,
-        onPageChanged: (index) {
-          mainPageRepository.selectPage(index);
-        },
-        children: [
-          ItemSearchPage(),
-          BinLocatorPage(),
-          BarcodeScannerPage(),
-          FaqPage(),
-        ],
-      ),
+    return PageView(
+      controller: pageController,
+      onPageChanged: (index) {
+        mainPageRepository.selectMainPagesPage(index);
+      },
+      children: [
+        ItemSearchPage(),
+        BinLocatorPage(),
+        BarcodeScannerPage(),
+        FaqPage(),
+      ],
     );
   }
 }

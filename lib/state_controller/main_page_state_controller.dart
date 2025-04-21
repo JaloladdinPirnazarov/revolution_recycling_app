@@ -6,5 +6,4 @@ class MainPageStateController extends GetxController {
   MainPageStateController._();
 
   final RxInt currentPageIndex = 0.obs;
-  final RxString currentPageTitle = AppTexts.searchPageTitle.obs;
 }

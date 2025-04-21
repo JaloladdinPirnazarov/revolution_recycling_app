@@ -13,20 +13,9 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.c4e2b8,
-      body: Column(
-        children: [
-          // Title
-          Obx(
-            () => MainPageTitle(
-              title: _mainPageStateController.currentPageTitle.value.tr,
-            ),
-          ),
-
-          MyPageView(
-            pageController: _pageController,
-            mainPageRepository: _mainPageRepository,
-          ),
-        ],
+      body: MyPageView(
+        pageController: _pageController,
+        mainPageRepository: _mainPageRepository,
       ),
       bottomNavigationBar: Obx(
         () => MyBottomNavBar(
